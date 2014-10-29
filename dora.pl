@@ -97,7 +97,7 @@ our $smudgeFilter 					= "$scriptDir/xsltproc $xslDeflate -";
 our @dxlFilterConfig = (
   [$dxlFilterVarClean,    $cleanFilter],
   [$dxlFilterVarSmudge,   $smudgeFilter],
-  [$dxlFilterVarRequired, 'true']
+  [$dxlFilterVarRequired, 'false']
 );
 # App Version Filter Vars
 our $appVersionFilterName   = "appversion";
