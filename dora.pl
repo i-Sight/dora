@@ -120,11 +120,10 @@ our $chkHooks		 = 0;
 
 # Entries for Git Ignore File
 our @ignoreEntries = (
-  'xsl/',
-  'nsf/.classpath',
-  'nsf/.project',
-  'nsf/plugin.xml',
-  'nsf/.settings',
+  '.classpath',
+  '.project',
+  'plugin.xml',
+  '.settings',
   'xspdesign.properties'
 	#'nsf/CustomControls/ccAppVersion.xsp*'
 );
