@@ -68,9 +68,7 @@ Resources that are copied
 ### Windows + Git Bash / Git Gui
 
 Open Git Bash, Navigate to the unzipped dora release (or the cloned camac/dora.git repository) and run `./Install.pl`
-1. Follow the prompts
-2. Move the installed folder $homeDir/bin to */Desktop/bin where * is the path to your Desktop
-3. Edit the file $homeDir/dora to set $scriptDir = */Desktop/bin where * is the path to your Desktop
+Follow the prompts
 
 ### Windows using SourceTree
 
@@ -82,6 +80,10 @@ Open the terminal using the Terminal Icon in the SourceTree 'ribbon' menu. You w
 Once in the terminal, navigate to wherever you unzipped the release of Dora.
 
 Then issued the command `./Install.pl`
+
+Move the installed folder $homeDir/bin to */Desktop/bin where * is the path to your Desktop
+
+Edit the file $homeDir/dora to set $scriptDir = */Desktop/bin where * is the path to your Desktop
 
 ### Mac
 
