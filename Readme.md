@@ -68,7 +68,9 @@ Resources that are copied
 ### Windows + Git Bash / Git Gui
 
 Open Git Bash, Navigate to the unzipped dora release (or the cloned camac/dora.git repository) and run `./Install.pl`
-Follow the prompts
+1. Follow the prompts
+2. Move the installed folder $homeDir/bin to */Desktop/bin where * is the path to your Desktop
+3. Edit the file $homeDir/dora to set $scriptDir = */Desktop/bin where * is the path to your Desktop
 
 ### Windows using SourceTree
 
